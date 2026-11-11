@@ -1,14 +1,55 @@
+
 {
   "name": "mediarazzi-videojs-vast",
-  "version": "0.1.0",
-  "description": "VAST-first Video.js 8 integration for MEDIARAZZI and third-party VAST tags",
+  "version": "0.1.1",
+  "description": "Free Video.js 8 plugin for VAST video advertising, pre-roll ads, skippable commercials, ad pods, and MEDIARAZZI integration.",
   "license": "Apache-2.0",
   "main": "src/mediarazzi-videojs-vast.js",
   "browser": "src/mediarazzi-videojs-vast.js",
-  "files": ["src", "README.md", "LICENSE"],
-  "keywords": ["videojs-plugin", "videojs", "vast", "ima", "advertising", "mediarazzi"],
-  "peerDependencies": {"video.js": "^8.0.0", "videojs-ima": "^2.6.0"},
-  "scripts": {"test": "node --test test/*.test.js", "check": "node --check src/mediarazzi-videojs-vast.js && node --check demo/demo.js", "pack:dry": "npm pack --dry-run --ignore-scripts"},
-  "engines": {"node": ">=18"},
-  "publishConfig": {"access": "public"}
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "videojs-plugin",
+    "videojs",
+    "video.js",
+    "vast",
+    "vast-3.0",
+    "vast-player",
+    "vast-advertising",
+    "video-advertising",
+    "video-ads",
+    "google-ima",
+    "ima",
+    "preroll",
+    "skippable-ads",
+    "ad-pods",
+    "video-monetization",
+    "mediarazzi"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ScrewMagazine/mediarazzi-videojs-vast.git"
+  },
+  "homepage": "https://mediarazzi.com",
+  "bugs": {
+    "url": "https://github.com/ScrewMagazine/mediarazzi-videojs-vast/issues"
+  },
+  "peerDependencies": {
+    "video.js": "^8.0.0",
+    "videojs-ima": "^2.6.0"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "check": "node --check src/mediarazzi-videojs-vast.js && node --check demo/demo.js",
+    "pack:dry": "npm pack --dry-run --ignore-scripts"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
 }
