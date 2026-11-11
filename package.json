@@ -1,0 +1,14 @@
+{
+  "name": "mediarazzi-videojs-vast",
+  "version": "0.1.0",
+  "description": "VAST-first Video.js 8 integration for MEDIARAZZI and third-party VAST tags",
+  "license": "Apache-2.0",
+  "main": "src/mediarazzi-videojs-vast.js",
+  "browser": "src/mediarazzi-videojs-vast.js",
+  "files": ["src", "README.md", "LICENSE"],
+  "keywords": ["videojs-plugin", "videojs", "vast", "ima", "advertising", "mediarazzi"],
+  "peerDependencies": {"video.js": "^8.0.0", "videojs-ima": "^2.6.0"},
+  "scripts": {"test": "node --test test/*.test.js", "check": "node --check src/mediarazzi-videojs-vast.js && node --check demo/demo.js", "pack:dry": "npm pack --dry-run --ignore-scripts"},
+  "engines": {"node": ">=18"},
+  "publishConfig": {"access": "public"}
+}
